@@ -1,0 +1,92 @@
+/* Style.css  */
+
+body{
+    background: #333 url('Scene.jpg') center center no-repeat;
+    background-size:cover;
+    color:#532827;
+}
+
+#container{
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: floralwhite;
+    box-shadow: 0 10px 15px -8px #000;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+h1{
+    margin: 0 0 20px;
+    padding:0 0 20px;
+    border-bottom: solid 1px #ddd;
+    
+}
+
+form{
+    text-align: left;
+    
+}
+
+form input, form select{
+    margin: 10 0;
+    padding 8px;
+}
+
+form label{
+    display:block;
+    font-weight:bold;
+    margin:25px 0;
+}
+
+form input[type="text"]{
+    width:90px;
+}
+
+button{
+    background: #6c2726;
+    color:white;
+    border: none;
+    border-bottom:solid 4px #222;
+    text-transform: uppercase;
+    font-size:18px;
+    padding:20px 30px;
+    width:100%;
+}
+
+button:hover{
+    background: #4c2827;
+    border-bottom-color:#111;
+}
+
+button:active{
+    position:relative;
+    top:1px;
+    
+}
+
+#totaltip{
+    font-size:50px;
+    margin-top:40px;
+}
+
+#totaltip:before{
+    content:"Tip Amount";
+    font-size:18px;
+    font-weight:bold;
+    display:block;
+    text-transform: uppercase;
+}
+
+#totaltip sup{
+    font-size:24px;
+    top:-18px;
+}
+
+#totaltip small{
+    font-size:14px;
+    font-weight: bold;
+    display: block;
+}
